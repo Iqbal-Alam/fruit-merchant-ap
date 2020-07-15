@@ -1,0 +1,25 @@
+<div class="flex-center-h-100">
+    <mat-card class="w30 box-shadow">
+        <form [formGroup]="loginForm">
+            <h2 class="m0 font16 text-gradient text-center">{{'title' | translate}}</h2>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'username' | translate}}<span class="red">*</span></mat-label>
+                    <mat-icon matPrefix>person_outline</mat-icon>
+                    <input matInput formControlName="username">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'password' | translate}}<span class="red">*</span></mat-label>
+                    <mat-icon matPrefix>lock</mat-icon>
+                    <input type="password" matInput formControlName="password">
+                </mat-form-field>
+            </div>
+            <a mat-button routerLink="/signup">{{'registration' | translate}}</a>
+            <button mat-raised-button color="primary" class="pull-right" (click)="login()">{{'login' | translate}}</button>
+            <button mat-stroked-button (click)="openSnackBar('Login Success', 'Dismiss')">Show snack-bar</button>
+        </form>
+    </mat-card>
+</div>
+

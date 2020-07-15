@@ -1,0 +1,56 @@
+@import './variable.scss';
+html, body { 
+    height: 100%;
+    background-color: lighten($linear1, 30);
+    // background-image: linear-gradient(to top, $linear2, $linear1); /* Standard syntax (must be last) */
+    // margin: 0;
+    // font-size:12px;
+}
+
+
+.color-white{
+    color: #fff;
+}
+.red{
+    color: red;
+}
+.mat-fab.mat-primary, .mat-flat-button.mat-primary, .mat-mini-fab.mat-primary, .mat-raised-button.mat-primary {
+    background-color: $buttonColor;
+    // background-image: linear-gradient(to top, darken($linear2, 50), $linear1) !important;
+}
+$theme-color:$textColor;
+.hello{
+    color: $theme-color;
+}
+.w100{
+    width: 100%;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.font16{
+    font-size: 16px;
+}
+.text-color{
+    color: $theme-color;
+}
+.bg-color{
+    background-color: $theme-color;
+}
+.text-center{
+    text-align: center;
+}
+
+.text-gradient{
+    // background: -webkit-linear-gradient(left, $linear2 , $linear1);
+    //  background: -o-linear-gradient(right, $linear2, $linear1);
+    //  background: -moz-linear-gradient(right, $linear2, $linear1);
+    //  background: linear-gradient(to right, $linear2 , $linear1); 
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    color: darken($linear2, 20);
+  }
+  
+  

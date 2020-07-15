@@ -1,0 +1,39 @@
+<div class="flex-center-h-100">
+    <mat-card class="w30 box-shadow">
+        <form [formGroup]="registrationForm">
+            <h2 class="m0 font16 text-gradient text-center">{{'registration' | translate}}</h2>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'fullname' | translate}}</mat-label>
+                    <input matInput formControlName="fullname">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'username' | translate}}</mat-label>
+                    <input matInput formControlName="username">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'password' | translate}}</mat-label>
+                    <input type="password" matInput formControlName="password">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'mobile' | translate}}</mat-label>
+                    <input matInput formControlName="mobile">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>{{'address' | translate}}</mat-label>
+                    <input matInput formControlName="address">
+                </mat-form-field>
+            </div>
+            <a mat-button routerLink="/login">{{'login' | translate}}</a>
+            <button mat-raised-button color="primary" class="pull-right" (click)="registration()">{{'registration' | translate}}</button>
+        </form>
+    </mat-card>
+</div>

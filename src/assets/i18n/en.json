@@ -1,0 +1,21 @@
+{
+  "product": {
+    "name": "Enter Item Name"
+  },
+  "submit": "Submit",
+  "cancel": "Cancel",
+  "title": "Fruit Merchant App",
+  "userText": "User",
+  "loginText": " Login",
+  "registerText": " Registeration",
+  "loginTitle": "Login page is working",
+  "backLogin": "Back to Login",
+  "username":"Username",
+  "password":"Password",
+  "login":"Login",
+  "registration":"Registration",
+  "fullname":"Full Name",
+  "mobile":"Mobile no",
+  "address":"Address"
+  
+}

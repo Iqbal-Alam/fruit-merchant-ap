@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+@import 'assets/styles/bootstrapGrid.scss';
+@import 'assets/styles/variable.scss';
+@import 'assets/styles/functions.scss';
+@import 'assets/styles/config.scss';
+@import 'assets/styles/flex.scss';
+
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label, .mat-form-field-empty.mat-form-field-label {
+    padding-top:4px;
+}
+

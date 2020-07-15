@@ -1,0 +1,89 @@
+
+{
+    "LOGIN_FORM_FIELD":{
+        "functionName":"loginuser",
+        "fields":[{
+            "fieldKey":"username",
+            "fieldType":"text",
+            "fieldName":"USERNAME",
+            "fieldLabel":"Username",
+            "fieldValue":null,
+            "fieldDisabled":0,
+            "fieldRequired":0,
+            "fieldUiIndex":1,
+            "fieldOptions":[],
+            "fieldValidations":[]
+
+        },{
+            "fieldKey":"age",
+            "fieldType":"number",
+            "fieldName":"AGE",
+            "fieldLabel":"Age",
+            "fieldValue":null,
+            "fieldDisabled":0,
+            "fieldRequired":0,
+            "fieldUiIndex":1,
+            "fieldOptions":[],
+            "fieldValidations":[]
+        },{
+            "fieldKey":"city",
+            "fieldType":"select",
+            "fieldName":"CITY",
+            "fieldLabel":"City",
+            "fieldValue":null,
+            "fieldDisabled":0,
+            "fieldRequired":0,
+            "fieldUiIndex":1,
+            "fieldOptions":[
+                {
+                    "fieldOptionKey":"Au",
+                    "fieldOptionValue":"Aurangabad"
+
+                },
+                {
+                    "fieldOptionKey":"PAT",
+                    "fieldOptionValue":"Patna"
+
+                }
+            ],
+            "fieldValidations":[]
+        },
+        {
+            "fieldKey":"gender",
+            "fieldType":"radio",
+            "fieldName":"GENDER",
+            "fieldLabel":"Gender",
+            "fieldValue":null,
+            "fieldDisabled":0,
+            "fieldRequired":0,
+            "fieldUiIndex":1,
+            "fieldOptions":[
+                {
+                    "fieldOptionKey":"Male",
+                    "fieldOptionValue":"Male"
+
+                },
+                {
+                    "fieldOptionKey":"Female",
+                    "fieldOptionValue":"Female"
+
+                }
+            ],
+            "fieldValidations":[]
+        },
+        {
+            "fieldKey":"Login",
+            "fieldType":"button",
+            "fieldName":"LOGIN",
+            "fieldLabel":"Login",
+            "fieldValue":null,
+            "fieldDisabled":0,
+            "fieldRequired":0,
+            "fieldUiIndex":1,
+            "fieldOptions":[],
+            "fieldValidations":[]
+        }
+        ]
+    }
+        
+}

@@ -1,0 +1,28 @@
+.flex-center-h-100{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.flex-container{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}

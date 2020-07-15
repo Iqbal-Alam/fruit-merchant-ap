@@ -1,0 +1,42 @@
+<div class="flex-center-h-100">
+    <mat-card class="w30 box-shadow">
+        <form [formGroup]="sellingForm">
+            <h2 class="m0 font16 text-color text-center">Enter Selling Details</h2>
+            <div class="text-center">
+                <img src={{selectedItemImage}} alt={{selectedItemImage}} width="50">
+            </div>
+            <!-- <div>
+                <mat-form-field class="w100">
+                    <mat-label>Item</mat-label>
+                    <input matInput formControlName="item" value={{selectedFruit}}>
+                </mat-form-field>
+            </div> -->
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>Fullname</mat-label>
+                    <input matInput formControlName="fullname">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>Amount</mat-label>
+                    <input matInput formControlName="amount" (change)="getTotalAmount()">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>Unit</mat-label>
+                    <input type="text" matInput formControlName="unit" (change)="getTotalAmount()">
+                </mat-form-field>
+            </div>
+            <div>
+                <mat-form-field class="w100">
+                    <mat-label>Total Amount</mat-label>
+                    <input matInput formControlName="total" value={{totalAmount}}>
+                </mat-form-field>
+            </div>
+            <a mat-button routerLink="/dashboard">Back</a>
+            <button mat-raised-button color="primary" class="pull-right" (click)="enterItemDetails()">Save</button>
+        </form>
+    </mat-card>
+</div>
